@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mini Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid">
+      <!-- ══════════ TOP-LEFT: Two Sidebars ══════════ -->
+      <div class="panel sidebars-panel">
+        <!-- Sidebar 1 -->
+        <div class="sidebar">
+          <div class="sidebar-logo">
+            <img src="thoughtspot logo.jpg" alt="ThoughtSpot Logo" class="logo-img" />
+             <hr class="nav-divider-b" /> 
+          </div>
+
+          <h2>Home</h2>
+
+          <button class="create-btn">
+            Create New &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>+</p>
+          </button>
+
+          <nav>
+            <div class="nav-item active">
+              <img src="home  logo 01.jpeg" alt="Home" class="nav-icon" />
+              Home
+            </div>
+
+            <div class="nav-item">
+              <img src="star  logo.png" alt="Favorites" class="nav-icon" />
+              Favorites
+            </div>
+
+            <div class="nav-item">
+              <img src="create  logo.jpeg" alt="Created by me" class="nav-icon" />
+              Created by me
+            </div>
+          <hr class="nav-divider-a" />
+            <div class="nav-item">
+              <img src="monitor  logo.jpeg" alt="Monitor Alerts" class="nav-icon" />
+              Monitor Alerts
+            </div>
+            <div class="nav-item">
+              <img src="spotIQ  logo.jpeg" alt="SpotIQ Analysis" class="nav-icon" />
+              <b>SpotIQ Analysis</b>
+            </div>
+            <hr class="nav-divider-a" />
+          </nav>
+        </div>
+
+        <!-- Sidebar 2 -->
+        <div class="sidebar">
+          <div class="sidebar-logo">
+            <img src="thoughtspot logo.jpg" alt="ThoughtSpot Logo" class="logo-img" />
+                         <hr class="nav-divider-b" /> 
+
+          </div>
+          <h2>Home</h2>
+          <nav>
+            <div class="nav-item highlight">
+              <img src="home  logo.jpeg" alt="Home" class="nav-icon nav-blue" />
+              Home
+            </div><br>
+
+            <div class="nav-item">
+              <img src="star  logo.png" alt="Favorites" class="nav-icon" />
+              Favorites
+            </div>
+
+            <div class="nav-item">
+              <img src="create  logo.jpeg" alt="Created by me" class="nav-icon" />
+              Created by me
+            </div>
+
+            <hr class="nav-divider" />
+            <div class="nav-item">
+              <img src="monitor  logo.jpeg" alt="Monitor Alerts" class="nav-icon" />
+              Monitor Alerts
+            </div>
+
+            <div class="nav-item">
+              <img src="spotIQ  logo.jpeg" alt="SpotIQ Analysis" class="nav-icon" />
+              <b>SpotIQ Analysis</b>
+            </div>
+
+            <hr class="nav-divider" />
+            <div class="nav-item">
+              <img src="Tutorial  logo.jpeg" alt="Tutorials" class="nav-icon" />
+              Tutorials
+            </div>
+
+            <div class="nav-item">
+              <img src="Documentation  logo.jpeg" alt="Documentation" class="nav-icon"/>
+              Documentation
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- ══════════ TOP-RIGHT: Avatars ══════════ -->
+      <div class="panel avatars-panel">
+        <!-- Row 1: Animal emoji images -->
+        <div class="avatar-row">
+          <div class="avatar av-cat">
+            <img src="cat-face logo.jpeg" alt="Cat" class="avatar-img" />
+          </div>
+          <div class="avatar av-frog">
+            <img src="frog  logo.jpeg" alt="Frog" class="avatar-img" />
+          </div>
+          <div class="avatar av-fox">
+            <img src="fox-face  logo.jpeg" alt="Fox" class="avatar-img" />
+          </div>
+          <div class="avatar av-pig">
+            <img src="pig  logo.jpeg" alt="Pig" class="avatar-img" />
+          </div>
+          <div class="avatar av-panda">
+            <img src="panda  logo.jpeg" alt="Panda" class="avatar-img" />
+          </div>
+        </div>
+        <!-- Row 2: Letter avatars -->
+        <div class="avatar-row">
+          <div class="avatar av-kp">KP</div>
+          <div class="avatar av-fj">FJ</div>
+          <div class="avatar av-mi">MI</div>
+          <div class="avatar av-bb">BB</div>
+          <div class="avatar av-lp">LP</div>
+        </div>
+      </div>
+
+      <!-- ══════════ BOTTOM-LEFT: Cards ══════════ -->
+      <div class="panel cards-panel">
+        <!-- Full green card -->
+        <div class="card card-full card-green">
+          <div class="card-avatar">
+            <img src="card logo.jpeg" alt="Profile" class="card-avatar-img" />
+          </div>
+          <div class="card-label">CQ Booked ACV</div>
+          <div class="card-value">794.9<small>K</small></div>
+          <div class="card-sub">ThoughtSpot Sales</div>
+        </div>
+        <!-- Half-visible purple card -->
+        <div class="card card-half card-purple">
+          <div class="card-label">CQ Booked ACV</div>
+          <div class="card-value">794.<small>9</small></div>
+          <div class="card-sub">ThoughtSpot S</div>
+        </div>
+      </div>
+
+      <!-- ══════════ BOTTOM-RIGHT: Detail Panel ══════════ -->
+      <div class="panel detail-outer">
+        <div class="detail-panel">
+
+          <!-- ✅ BOX 1: Tabs only -->
+          <div class="box-tabs">
+            <div class="tabs">
+              <button class="tab active">View</button>
+              <button class="tab">Explore</button>
+              <button class="tab">Format</button>
+            </div>
+          </div>
+
+          <!-- ✅ BOX 2: Show Query + Details -->
+
+
+          <div class="box-details">
+            <!-- Show Query row -->
+            <div class="query-row">
+              <label class="toggle-wrap">
+                <input type="checkbox" checked />
+                <span class="toggle-slider"></span>
+              </label>
+              <span class="query-label"><b>Show Query</b></span>
+              <div class="icon-btn">
+                <img src="calender logo.jpeg" alt="Calendar" class="icon-img" />
+                <img src="graph  logo.jpeg" alt="Graph" class="icon-imgg" />
+              </div>
+            </div>
+
+            <!-- Details -->
+            <div class="details-section">
+              <h3>Details</h3>
+              <p class="desc">
+                Lorem ipsum dolor sit amet,<br />
+                consectetur adipiscing elit, sed do<br />
+                eiusmod tempor incididunt ut labore<br />
+                et dolore magna aliqua.
+              </p>
+              <div class="detail-row">
+                <span class="key">Author</span>
+                <span class="val">Naresh Kumar</span>
+              </div>
+              <div class="detail-row">
+                <span class="key">Created</span>
+                <span class="val">Oct 31, 2021</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
